@@ -8,7 +8,7 @@ module.exports = {
 		filename: "bundle.js",
 		publicPath: "/assets/"
 	},
-	devtool: 'source-map',
+	//devtool: 'source-map',
 	devServer: {
 		inline: true,
 		contentBase: './dist',

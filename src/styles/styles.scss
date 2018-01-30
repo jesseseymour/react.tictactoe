@@ -1,0 +1,27 @@
+$size: 400px;
+body,html{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.game{
+  padding: 20px;
+  font-size: 40px;
+  font-family: Verdana, Arial, sans-serif;
+}
+.status{
+  margin-bottom: 10px;
+}
+.board{
+  display: flex;
+  box-sizing: border-box;
+  width: $size;
+  height: $size;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  > button{
+    width: $size / 3;
+    height: $size / 3;
+    font-size: 100px;
+  }
+}
